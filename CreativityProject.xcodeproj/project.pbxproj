@@ -54,8 +54,8 @@
 		2C00E013218B3CC300035EC2 /* CreativityProject */ = {
 			isa = PBXGroup;
 			children = (
-				2C00E014218B3CC300035EC2 /* AppDelegate.swift */,
 				2C00E016218B3CC300035EC2 /* ViewController.swift */,
+				2C00E014218B3CC300035EC2 /* AppDelegate.swift */,
 				2C00E018218B3CC300035EC2 /* Main.storyboard */,
 				2C00E01B218B3CC500035EC2 /* Assets.xcassets */,
 				2C00E01D218B3CC500035EC2 /* LaunchScreen.storyboard */,
