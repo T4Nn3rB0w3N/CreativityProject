@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CreativityViewController.swift
 //  CreativityProject
 //
 //  Created by Bowen, Tanner on 11/1/18.
