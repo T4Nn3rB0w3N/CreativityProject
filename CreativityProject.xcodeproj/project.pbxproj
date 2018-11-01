@@ -184,6 +184,7 @@
 			);
 			name = DrawingView.swift;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 /* End PBXVariantGroup section */
 
