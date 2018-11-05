@@ -38,7 +38,7 @@ public class DrawingView: UIView
         figure.addLine(to: CGPoint(x: 200, y: 270))
         figure.move(to: CGPoint(x: 180, y: 240))
         figure.addLine(to: CGPoint(x: 220, y: 240))
-        figure.move(to: CGPoint(X: 200, y: 270))
+        figure.move(to: CGPoint(x: 200, y: 270))
         figure.addLine(to: CGPoint(x: 180, y: 300))
         figure.move(to: CGPoint(x: 200, y: 270))
         figure.addLine(to: CGPoint(x: 220, y: 300))
