@@ -29,6 +29,8 @@ public class ArtCollectionViewController: UICollectionViewController
         ]
     }()
     
+    //MARK: - Lifecycle
+    
     private let labels : [String] =
     {
         return [
