@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="40.799999999999997" y="116.49175412293854"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--Art Collection View Controller-->
         <scene sceneID="1KE-mh-S8q">
             <objects>
-                <collectionViewController id="DPe-h0-dUA" sceneMemberID="viewController">
+                <collectionViewController id="DPe-h0-dUA" customClass="ArtCollectionViewController" customModule="CreativityProject" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="rnx-vl-b8Q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,6 +62,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </view>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </collectionViewCell>
                         </cells>
                         <connections>
