@@ -49,25 +49,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7Vo-y9-3JL">
-                            <size key="itemSize" width="50" height="50"/>
+                            <size key="itemSize" width="200" height="250"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artidentifier" id="1KF-tU-oGe" customClass="ArtCell" customModule="CreativityProject" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                <rect key="frame" x="87.5" y="0.0" width="200" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="250"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zTZ-aF-Cqi">
-                                            <rect key="frame" x="-70" y="-14" width="240" height="128"/>
+                                            <rect key="frame" x="0.0" y="-23.999999999999773" width="200" height="200"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ef-KY-bDI">
-                                            <rect key="frame" x="29" y="40" width="42" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ef-KY-bDI">
+                                            <rect key="frame" x="0.0" y="229.5" width="200" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -76,9 +75,14 @@
                                 </view>
                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="zTZ-aF-Cqi" firstAttribute="leading" secondItem="1KF-tU-oGe" secondAttribute="leading" id="XK9-Uj-TAj"/>
+                                    <constraint firstItem="1ef-KY-bDI" firstAttribute="centerX" secondItem="1KF-tU-oGe" secondAttribute="centerX" id="cpp-0r-daH"/>
+                                    <constraint firstItem="1ef-KY-bDI" firstAttribute="bottom" secondItem="zTZ-aF-Cqi" secondAttribute="bottom" id="kLR-CL-dNV"/>
+                                    <constraint firstItem="1ef-KY-bDI" firstAttribute="width" secondItem="1KF-tU-oGe" secondAttribute="width" id="rP6-iE-FxC"/>
                                     <constraint firstItem="zTZ-aF-Cqi" firstAttribute="width" secondItem="1KF-tU-oGe" secondAttribute="width" id="wtZ-k5-4HW"/>
+                                    <constraint firstItem="zTZ-aF-Cqi" firstAttribute="top" secondItem="1KF-tU-oGe" secondAttribute="top" id="yoB-fu-kyk"/>
                                 </constraints>
-                                <size key="customSize" width="100" height="100"/>
+                                <size key="customSize" width="200" height="250"/>
                             </collectionViewCell>
                         </cells>
                         <connections>
