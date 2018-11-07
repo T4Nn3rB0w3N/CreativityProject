@@ -14,6 +14,7 @@
 		2C28B6842190ABEC0034C36B /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C28B6812190ABEC0034C36B /* DrawingView.swift */; };
 		2C28B6852190ABEC0034C36B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C28B6822190ABEC0034C36B /* Main.storyboard */; };
 		2C67BD242193387000CF0CFF /* ArtCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C67BD232193387000CF0CFF /* ArtCollectionViewController.swift */; };
+		2C67BD2621934AD400CF0CFF /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C67BD2521934AD400CF0CFF /* ArtCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2C28B6812190ABEC0034C36B /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		2C28B6822190ABEC0034C36B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2C67BD232193387000CF0CFF /* ArtCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCollectionViewController.swift; sourceTree = "<group>"; };
+		2C67BD2521934AD400CF0CFF /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				2C28B6812190ABEC0034C36B /* DrawingView.swift */,
 				2C28B6802190ABEC0034C36B /* LaunchScreen.storyboard */,
 				2C28B6822190ABEC0034C36B /* Main.storyboard */,
+				2C67BD2521934AD400CF0CFF /* ArtCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				2C28B6842190ABEC0034C36B /* DrawingView.swift in Sources */,
 				2C00E017218B3CC300035EC2 /* CreativityViewController.swift in Sources */,
+				2C67BD2621934AD400CF0CFF /* ArtCell.swift in Sources */,
 				2C67BD242193387000CF0CFF /* ArtCollectionViewController.swift in Sources */,
 				2C00E015218B3CC300035EC2 /* AppDelegate.swift in Sources */,
 			);
