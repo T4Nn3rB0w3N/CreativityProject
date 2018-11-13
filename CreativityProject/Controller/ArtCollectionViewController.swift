@@ -68,24 +68,24 @@ public class ArtCollectionViewController: UICollectionViewController
 
     public override func numberOfSections(in collectionView: UICollectionView) -> Int
     {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
 
     public override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
-        // #warning Incomplete implementation, return the number of items
-        return 0
+        return creativeCS.count
     }
 
     public override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+        let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
     
-        // Configure the cell
+        artCell.backgroundColor = .purple
+        artCell.artImage.image = creativeCS[indexPath.row]
+        artCell.artLabel.text = labels[indexPath.row]
     
-        return cell
+        return artCell
     }
 
     // MARK: UICollectionViewDelegate
@@ -100,6 +100,20 @@ public class ArtCollectionViewController: UICollectionViewController
         let widthPerItem = availableWidth / itemsPerRowCompact
         
         return CGSize(width: widthPerItem, height: widthPerItem)
+    }
+    
+    public func collectionView(_ collectionView: UICollectionView,
+                               layout collectionViewLayout: UICollectionViewLayout,
+                               insetForSectionAt section: Int) -> UIEdgeInsets
+    {
+        return sectionInsets
+    }
+    
+    public func collectionview(_ collectionview: UICollectionViewLayout,
+                               layout collectionViewLayout: UICollectionViewLayout,
+                               minimumLineSpacingForSectionAt section: Int) -> CGFloat
+    {
+        return sectionInsets.left
     }
     /*
     // Uncomment this method to specify if the specified item should be highlighted during tracking
